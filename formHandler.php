@@ -59,6 +59,8 @@
 				':email' => $email,
 				));		
    }
+
+   //pasta sūtīšanas funkcija
    function sendMail(){
    	$to = $_POST['email'];
 	$subject = 'YOUR REGISTRATION';
@@ -71,7 +73,7 @@
    }
    header("refresh:5;url=index.html");
 
-//funkcija, kas saglabā iegūtos datus datubāzē.
+
 	$createDB = createDatabase($pdo);
 	$createTable = createTable($pdo,$table);
 	$saveData = saveData($pdo);
