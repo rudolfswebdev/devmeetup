@@ -1,0 +1,104 @@
+body{
+	padding:0;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	font-family: 'Montserrat', sans-serif;
+}
+.container{
+	margin-top: 5vh;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+.homeImage{
+
+	height:95vh;
+	background-image: url('background1.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	text-align: center;
+	padding: 0;
+	padding-top: 30vh;
+}
+.form{
+	padding-top: 5vh;
+	text-align: center;
+	margin-left: 0;
+	margin-right: 0;
+	background: #8f00fc; /* Old browsers */
+	background: -moz-linear-gradient(45deg, #8f00fc 0%, #06d656 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(45deg, #8f00fc 0%,#06d656 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg, #8f00fc 0%,#06d656 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8f00fc', endColorstr='#06d656',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.whoAreWe{
+	padding-left: 15%;
+	padding-right: 15%;
+}
+.sponsors{
+	text-align: center;
+	margin-top: 5vh;
+}
+form{
+	padding-left: 20%;
+	padding-right: 20%;
+	margin-top: 10vh;
+}
+button{
+	margin-bottom: 5vh;
+}
+input{
+	max-width: 250px;
+	margin-left: auto;
+	margin-right: auto;
+}
+h1{
+
+	text-transform: uppercase;
+	font-weight: 800;
+	color: white;
+	font-size: 4vw;
+}
+h2{
+	color: white;
+	font-size: 2.5vw;
+}
+
+p{
+	padding-top: 5vh;
+}
+
+.col-sm-3{
+	
+	min-width: 100px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 250px;
+}
+.col-sm-3:nth-child(1){
+	background-image: url('https://cdn1.unrealengine.com/UnrealEngine/3659059/UE_Logo_Black_Centered_Filled-fcb16e04e0e6306235adcca98e4064aa.png');
+
+}
+.col-sm-3:nth-child(2){
+	background-image: url('http://res.cloudinary.com/sonarsystems/image/upload/v1473065499/logo_unity_b6xtad.png');
+}
+.col-sm-3:nth-child(3){
+	background-image: url('http://icons.iconarchive.com/icons/fruityth1ng/stark/512/Blender-icon.png');
+}
+.col-sm-3:nth-child(4){
+	background-image: url('https://seeklogo.com/images/U/ubisoft-logo-1AAC37635F-seeklogo.com.png');
+}
+
+
+@media only screen and (max-width: 768px) {
+    h1{
+    	font-size: 6vw;
+    }
+    h2{
+    	font-size: 3.5vw;
+    }
+}

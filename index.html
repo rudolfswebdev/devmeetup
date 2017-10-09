@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="main.css">
+  </head>
+  <body>
+
+ 	<div class="container-fluid homeImage">
+ 		<h1>annual game developer meetup</h1>
+ 		<h2>23rd of February, 2018, Riga</h2>
+ 		
+ 	</div>
+ 	
+ 	<div class="container-fluid sponsors">
+ 		<h3>Our Sponsors</h3>
+ 		<div class="row">
+ 			<div class="col-sm-3"></div>
+ 			<div class="col-sm-3"></div>
+ 			<div class="col-sm-3"></div>
+ 			<div class="col-sm-3"></div>
+ 		</div>
+ 	</div>
+
+ 	<div class="container whoAreWe">
+ 		<h3>Who are we?</h3>
+ 		<p>A meetup for local game developers to network, share ideas, showcase projects, test out new lectures or anything else that catches our eye. Stay informed about local game development studios, schools, seminars and conferences.
+
+		The meetup is open to any developer (pro, indie, hobby) and any students currently enrolled in a game development program. Any discipline is welcome (design, programming, art, sound, project management, etc.) Member must be 18 or older to join.</p>
+ 	</div>
+ 	<div id="form" class="container-fluid form">
+ 		<h3>Join us!</h3>
+	<form action="formHandler.php" method="post">
+
+		<div class="form-group">
+			<label for="inputName">Enter your name</label>
+			<input type="text" class="form-control"name="name" placeholder="Name" required>
+
+			<label for="inputName">Enter your surname</label>
+			<input type="text" class="form-control" name="surname" placeholder="Surname" required>
+
+			<label for="inputCompany">Enter the name of your Company</label>
+			<input type="text" class="form-control" name="company" placeholder="Company name" required>
+
+			<label for="inputAddress">Enter your address</label>
+			<input type="text" class="form-control" name="address" placeholder="Address" required>
+
+			<label for="inputPhone">Enter your phone number</label>
+			<input type="tel" class="form-control"  name="phonenumber" placeholder="Phone number" required>
+
+			<label for="inputEmail">Provide us your E-mail</label>
+			<input type="email" class="form-control" name="email" placeholder="Email" required>
+		</div>
+		<button action="sendMail.php" type="submit" class="btn btn-primary">Submit</button>
+	</form>
+	
+</div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+   
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
+</html>
