@@ -61,10 +61,10 @@
    }
    function sendMail(){
    	$to = $_POST['email'];
-	$subject = 'the subject';
-	$message = 'hello';
-	$headers = 'From: webmaster@example.com' . "\r\n" .
-    'Reply-To: webmaster@example.com' . "\r\n" .
+	$subject = 'YOUR REGISTRATION';
+	$message = 'HELLO< YOU HAVE BEEN REGISTERED FOR THIS EVENT!';
+	$headers = 'From: admin@test.com' . "\r\n" .
+    'Reply-To: admin@test.com' . "\r\n" .
     'X-Mailer: PHP/' . phpversion();
 
 	mail($to, $subject, $message, $headers);
